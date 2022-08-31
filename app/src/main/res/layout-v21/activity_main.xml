@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="155dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background ="#FF6200EE"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/homeIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+
+                android:contentDescription="@string/home_icon"
+                app:srcCompat="@drawable/protection" />
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="4"
+                android:fontFamily="@font/newhounds_italicitalic"
+                android:text="Women Safety System"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/callBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp"
+
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/call_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_call"
+                    tools:ignore="VectorDrawableCompat"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:text="Call Helplines"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/varela_round"
+                    android:paddingLeft="50dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/locationBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/location_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_location"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Live Location"
+                    android:layout_weight="5"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/varela_round"
+                    android:layout_marginLeft="60dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/videoBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/video_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_video"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:text="Self Defence "
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/varela_round"
+                    android:paddingLeft="50dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/contactBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/contact_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_contacts"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" Add Guardian"
+                    android:layout_weight="5"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/varela_round"
+                    android:layout_marginLeft="50dp" android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/reportBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/icon_radius"
+                android:contentDescription="@string/report_icon"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_report"
+                tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="Blogs &amp; Articles"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/varela_round"
+                    android:paddingStart="40dp"
+                    tools:ignore="RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/feedbackBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/icon_radius"
+                android:contentDescription="@string/feedback_icon"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_feedback" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Send Feedback"
+                    android:layout_weight="4"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/varela_round"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="40dp" android:layout_marginRight="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

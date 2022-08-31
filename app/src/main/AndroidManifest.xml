@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.womensafety">
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="Women Safety System"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WomenSafety">
+        <activity android:name=".LiveLocationScreen" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Report" />
+        <activity android:name=".RegisterNumberActivity" />
+        <activity android:name=".Interface" />
+        <activity android:name=".EmergencyCall"/>
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/radius" />
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".ServiceMine"
+            android:enabled="true"
+            android:foregroundServiceType="location" />
+    </application>
+
+</manifest>

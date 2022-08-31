@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20sp"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="134dp">
+
+            <ImageView
+                android:id="@+id/self_defence"
+                android:layout_width="wrap_content"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/self_defence" />
+
+            <TextView
+                android:id="@+id/blog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Five Self-Defense Techniques Every Woman Should Know : "
+                android:textSize="22dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/blog1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="9dp"
+                android:textSize="17sp"
+                android:text="1. VULNERABLE PLACES : Focus on your attacker’s vulnerable places: eyes, nose, throat, and groin. Aim all of the moves below at one or several of these areas to have maximum impact. Don’t aim for the chest, as that tends to be ineffective. Aiming for the knees requires a specific kick that can be too risky for the average person."/>
+
+            <TextView
+                android:id="@+id/blog2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="9dp"
+                android:textSize="17sp"
+                android:text="2. HAMMER STRIKE : Using your car keys is one of the easiest ways to defend yourself. Don’t use your fingernails, because you’re more at risk to injure your hands. Instead, if you feel unsafe while walking at night, have your keys stick out from one side of your fist for hammer strikes."/>
+
+            <TextView
+                android:id="@+id/blog3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="9dp"
+                android:textSize="17sp"
+                android:text="3. GROIN KICK : If someone is coming at you from the front, a groin kick may deliver enough force to paralyze your attacker, making your escape possible. If your attacker is too close, thrust your knee toward the groin. Make sure you’re stabilized and not at risk of falling over."/>
+
+            <TextView
+                android:id="@+id/blog4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="9dp"
+                android:textSize="17sp"
+                android:text="4. ELBOW STRIKE : If your attacker is in close range and you’re unable to get enough momentum to throw a strong punch or kick, use your elbows. Depending on how you’re standing when you’re initially attacked, you may be in a better position for variations on the elbow strike."/>
+
+            <TextView
+                android:id="@+id/blog5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="9dp"
+                android:textSize="17sp"
+                android:text="5. CARRY PROTECTION : Whether pepper spray, a personal safety alarm, or a lipstick taser, self-defense tools can help you feel more at ease.
+"/>
+
+            <TextView
+                android:id="@+id/articleLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="9dp"
+                android:textSize="18sp"
+                android:text="You can find the detailed article along with tutorial videos on this link"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

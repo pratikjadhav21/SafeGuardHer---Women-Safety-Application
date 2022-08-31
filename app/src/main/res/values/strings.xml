@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Women Safety System</string>
+    <string name="call_icon">call icon</string>
+    <string name="location_icon">location icon</string>
+    <string name="video_icon">video icon</string>
+    <string name="contact_icon">contact icon</string>
+    <string name="report_icon">report icon</string>
+    <string name="feedback_icon">feedback icon</string>
+    <string name="home_icon">home icon</string>
+    <string name="report_online">Report Online</string>
+    <string name="emergency_call">Emergency_call</string>
+    <string name="enter_number_here">Enter number here:</string>
+</resources>
