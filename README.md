@@ -17,7 +17,7 @@ Splash Screen            |  Main Activity with all features
 
 --------------------------------------------------------------------------------------------------------------
 
-SOS Activity with Start & Stop button           |  Call Helplines Activity
+SOS Activity            |  Call Helplines Activity
 :-------------------------:|:-------------------------:
 ![](./app/src/main/res/drawable/sos_activity.jpg)  |  ![](./app/src/main/res/drawable/call_helplines_activity.jpg)
 
