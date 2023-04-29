@@ -13,13 +13,13 @@ The main idea of this application is to provide help immediately to any women wh
 
 Splash Screen            |  Main Activity with all features
 :-------------------------:|:-------------------------:
-![](./app/src/main/res/drawable/splash_screen.jpeg)  |  ![](./app/src/main/res/drawable/main_activity.jpeg)
+![](./app/src/main/res/drawable/splash_screen.jpg)  |  ![](./app/src/main/res/drawable/main_activity.jpg)
 
 --------------------------------------------------------------------------------------------------------------
 
 SOS Activity with Start & Stop button           |  Call Helplines Activity
 :-------------------------:|:-------------------------:
-![](./app/src/main/res/drawable/sos_activity.jpeg)  |  ![](./app/src/main/res/drawable/call_helplines_activity.jpeg)
+![](./app/src/main/res/drawable/sos_activity.jpg)  |  ![](./app/src/main/res/drawable/activity.jpg)
 
 
 ## Software Requirements
