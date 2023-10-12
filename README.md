@@ -1,4 +1,4 @@
-# Women Safety App
+# SafeGuardHer: Women Safety App
 Safety of women has become a major issue as the number of crimes over women and girls keep increasing day-by-day. This application is designed to provide safety to women.
 
 ## Main idea
